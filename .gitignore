@@ -1,0 +1,34 @@
+# Python
+*.pyc
+__pycache__/
+*/__pycache__/
+
+# Virtual environments
+/generators/.venv
+
+# IDEs
+.idea/
+.vscode/
+
+# Build directories
+build/
+cmake-build-debug/
+cmake-build-release/
+
+# Cache
+.cache/
+
+# Archive
+archive/*
+!archive/data/
+!archive/configs/
+
+!archive/distributions/
+archive/distributions/*
+!archive/distributions/datasets/
+!archive/distributions/configs/
+
+!archive/distributions_memory/
+archive/distributions_memory/*
+!archive/distributions_memory/datasets/
+!archive/distributions_memory/configs/

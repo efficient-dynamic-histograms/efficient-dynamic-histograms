@@ -1,0 +1,35 @@
+{
+    "out_directory": "archive/results_fixed_10_50",
+    "reports_directory": "archive/reports_fixed_10_50",
+    "delimiter": ",",
+    "shuffle": false,
+    "num_runs": 20,
+    "loda": {
+        "num_sketches": 10
+    },
+    "benhaim_simple": {
+        "num_points": 50
+    },
+    "benhaim_advanced": {
+        "num_points": 50
+    },
+    "benhaim_incorrect": {
+        "num_points": 50
+    },
+    "kde_benhaim": {
+        "num_points": 50
+    },
+    "limited_kde_benhaim": {
+        "num_points": 50
+    },
+    "dado": {
+        "num_points": 50
+    },
+    "dado_corrected": {
+        "num_points": 50
+    },
+    "iforest": {
+        "num_trees": 100,
+        "sample_size": 256
+    }
+}

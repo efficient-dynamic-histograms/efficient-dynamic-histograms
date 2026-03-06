@@ -1,0 +1,10 @@
+add_executable(simmain simmain.cpp)
+add_executable(distmain distmain.cpp)
+include(FetchContent)
+
+FetchContent_Declare(json URL https://github.com/nlohmann/json/releases/download/v3.12.0/json.tar.xz)
+FetchContent_MakeAvailable(json)
+target_include_directories(simmain PUBLIC include/)
+target_include_directories(distmain PUBLIC include/)
+target_link_libraries(simmain PRIVATE compiler_flags datasets topology utils sketches algorithms nlohmann_json::nlohmann_json)
+target_link_libraries(distmain PRIVATE compiler_flags datasets topology utils sketches algorithms nlohmann_json::nlohmann_json)

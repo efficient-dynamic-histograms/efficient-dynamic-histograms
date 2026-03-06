@@ -1,0 +1,31 @@
+{
+    "out_directory": "archive/distributions_memory/results",
+    "num_runs": 10,
+    "loda": {
+        "num_sketches": 30
+    },
+    "benhaim_simple": {
+        "num_points": 30
+    },
+    "benhaim_advanced": {
+        "num_points": 30
+    },
+    "benhaim_incorrect": {
+        "num_points": 30
+    },
+    "kde_benhaim": {
+        "num_points": 20
+    },
+    "limited_kde_benhaim": {
+        "num_points": 20
+    },
+    "dado": {
+        "num_points": 20
+    },
+    "dado_corrected": {
+        "num_points": 20
+    },
+    "range_start": 1.0,
+    "range_end": 100000.0,
+    "increment": 0.1
+}
